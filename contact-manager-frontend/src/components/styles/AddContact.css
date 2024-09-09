@@ -1,0 +1,98 @@
+/* Apply a global font and some base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.add-contact-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.add-contact-container h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.add-contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-contact-container .form-group {
+  margin-bottom: 20px;
+}
+
+.add-contact-container .form-group label {
+  margin-bottom: 5px;
+  color: #555555;
+  font-weight: 500;
+}
+
+.add-contact-container .form-group input {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.add-contact-container .form-group input:focus {
+  border-color: #007bff;
+}
+
+.add-contact-container .phone-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-contact-container .phone-field input {
+  flex-grow: 1;
+}
+
+.add-contact-container .add-phone-btn {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.add-contact-container .add-phone-btn:hover {
+  background-color: #45a049;
+}
+
+.add-contact-container .submit-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-contact-container .submit-btn:hover {
+  background-color: #0056b3;
+}
